@@ -1,26 +1,44 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --background: #0a0a0a;
+  --foreground: #ededed;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --card: oklch(0.18 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --border: oklch(0.269 0 0);
+  --muted-foreground: oklch(80.528% 0.01492 238.26);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Geist", "Geist Fallback";
+  --font-mono: "Geist Mono", "Geist Mono Fallback";
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --muted: oklch(0.956 0 0);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+}
+
+.card {
+  transition: transform 300ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 300ms ease;
+
+  /* box-shadow: 0 0 0 1px rgba(120, 200, 255, 0.08), 0 8px 20px rgba(0, 0, 0, 0.6); */
+}
+
+.card:hover {
+  /* transform: translateY(-4px) scale(1.04); */
+  /* box-shadow: 0 0 0 1px rgba(120, 200, 255, 0.3), 4px 8px 16px rgba(120, 200, 255, 0.45),
+    10px 18px 36px rgba(120, 200, 255, 0.35), 0 24px 60px rgba(0, 0, 0, 0.9); */
+  border: 1px solid rgba(120, 200, 255, 0.3);
+  box-shadow: 0 2px 10px rgba(120, 200, 255, 0.6);
 }
