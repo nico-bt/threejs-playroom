@@ -35,6 +35,12 @@ const projects = [
     image: "/cars.jpg",
     href: "https://luxor-cars-nico-bt.vercel.app/",
   },
+  {
+    title: "Ferrari Advertisement",
+    description: "Scroll + movimiento.",
+    image: "/ferrari.jpg",
+    href: "https://ferrari-sable.vercel.app/",
+  },
 ]
 
 export default function Page() {
