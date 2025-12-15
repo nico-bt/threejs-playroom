@@ -3,11 +3,11 @@ import { ProjectCard } from "@/components/project-card"
 
 const projects = [
   {
-    title: "Torre Globant",
+    title: "Mech & Grogu",
     description:
-      "Un youtuber intentó escalar la torre y se lo llevaron detenido, salió en todas las noticias. \nPodés saltar de plataforma en plataforma hasta a la cima. \nO buscarlo a Messi que te da un empujoncito",
-    image: "/torre.jpg",
-    href: "https://globant-tower.vercel.app/",
+      "Animando character (correr, caminar). \nRenderizado múltiple de un mismo modelo. \nInteracción (choque contra Moff Gideon).",
+    image: "/grogu.jpg",
+    href: "https://mech-and-grogu.vercel.app/",
   },
   {
     title: "F1 - Calendario",
@@ -16,11 +16,11 @@ const projects = [
     href: "https://f1-calendar-snowy.vercel.app/",
   },
   {
-    title: "Mech & Grogu",
+    title: "Torre Globant",
     description:
-      "Animando character (correr, caminar). \nRenderizado múltiple de un mismo modelo. \nInteracción (choque contra Moff Gideon).",
-    image: "/grogu.jpg",
-    href: "https://mech-and-grogu.vercel.app/",
+      "Un youtuber intentó escalar la torre y se lo llevaron detenido, salió en todas las noticias. \nPodés saltar de plataforma en plataforma hasta a la cima. \nO buscarlo a Messi que te da un empujoncito",
+    image: "/torre.jpg",
+    href: "https://globant-tower.vercel.app/",
   },
   {
     title: "Portfolio",
