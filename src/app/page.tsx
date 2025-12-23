@@ -47,21 +47,21 @@ export default function Page() {
   return (
     <>
       <main className="dark min-h-screen bg-background">
-        <div className="mx-auto max-w-4xl px-6 py-20">
+        <div className="mx-auto max-w-4xl px-6 py-16">
           <header className="mb-16">
             <h1 className="mb-12 text-4xl font-medium text-foreground md:text-5xl lg:text-6xl">
               Three.js Playroom
             </h1>
             <div className="grid gap-2 mt-6">
-              <p className="text-lg text-muted-foreground md:text-xl">
+              <p className="text-lg text-muted-foreground min-[2200px]:leading-loose">
                 Algunas ideas surgieron por noticias o trends, como forma para sumar engagement en
                 posts de Linkedin.
               </p>
-              <p className="text-lg text-muted-foreground md:text-xl">
+              <p className="text-lg text-muted-foreground min-[2200px]:leading-loose">
                 En general prueba y error más que diseño. Con agregados/aprendizajes en forma
                 incremental.
               </p>
-              <p className="text-lg text-muted-foreground md:text-xl">
+              <p className="text-lg text-muted-foreground min-[2200px]:leading-loose">
                 La mayoría de los modelos 3D y texturas son versiones free descargadas de las webs
                 Sketchfab y PolyHaven. Algunos armé con imágenes.
               </p>
