@@ -3,18 +3,24 @@ import { ProjectCard } from "@/components/project-card"
 
 const projects = [
   {
+    title: "Scaloneta Fixture",
+    description: "Storytelling y manejo de eventos con 'sensors'",
+    image: "/scaloneta.jpg",
+    href: "https://scaloneta-fixture.vercel.app/",
+  },
+  {
     title: "Mech & Grogu",
     description:
       "Animando character (correr, caminar). \nRenderizado múltiple de un mismo modelo. \nInteracción (choque contra Moff Gideon).",
     image: "/grogu.jpg",
     href: "https://mech-and-grogu.vercel.app/",
   },
-  {
-    title: "F1 - Calendario",
-    description: "Fechas del campeonato de F1 2024. \nColapinto reference.",
-    image: "/formula1.jpg",
-    href: "https://f1-calendar-snowy.vercel.app/",
-  },
+  // {
+  //   title: "F1 - Calendario",
+  //   description: "Fechas del campeonato de F1 2024. \nColapinto reference.",
+  //   image: "/formula1.jpg",
+  //   href: "https://f1-calendar-snowy.vercel.app/",
+  // },
   {
     title: "Torre Globant",
     description:
@@ -54,12 +60,12 @@ export default function Page() {
             </h1>
             <div className="grid gap-2 mt-6">
               <p className="text-lg text-muted-foreground min-[2200px]:leading-loose">
-                Algunas ideas surgieron por noticias o trends, como forma para sumar engagement en
-                posts de Linkedin.
+                Ideas random, noticias o trends.
               </p>
               <p className="text-lg text-muted-foreground min-[2200px]:leading-loose">
-                En general prueba y error más que diseño. Con agregados/aprendizajes en forma
-                incremental.
+                Prueba y error más que diseño. Con agregados/aprendizajes en forma incremental.{" "}
+                <br />
+                No hay hilo conductor, ni objetivo. Solo experimentar.
               </p>
               <p className="text-lg text-muted-foreground min-[2200px]:leading-loose">
                 La mayoría de los modelos 3D y texturas son versiones free descargadas de las webs
